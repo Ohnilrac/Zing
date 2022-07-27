@@ -1,23 +1,25 @@
+import { Contact, Container, Menu, Navigation } from "./styles";
+
 export function Header(){
   return (
-    <header>
-      <nav>
+    <Container>
+      <Navigation>
         <h2>Zing<span>.</span></h2>
-        <div>
+        <Menu>
           <ul>
             <li>Home</li>
             <li>About us</li>
             <li>Products</li>
             <li>Testimonials</li>
           </ul>
-        </div>
-        <div>
+        </Menu>
+        <Contact>
           <ul>
             <li>Contact</li>
             <li>Buy online</li>
           </ul>
-        </div>
-      </nav>
-    </header>
+        </Contact>
+      </Navigation>
+    </Container>
     )
 }

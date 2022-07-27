@@ -21,4 +21,13 @@ html{
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
+body{
+  background: var(--background);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul{
+  list-style: none;
+}
 `

@@ -41,10 +41,10 @@ export function Header() {
             <IoCloseOutline />
           </span>
             <ul>
-              <li><a href="">Home</a></li>
-              <li><a href="">About us</a></li>
-              <li><a href="">Products</a></li>
-              <li><a href="">Testimonials</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
             </ul>
         </MenuOpen>
       </Navigation>

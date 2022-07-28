@@ -9,6 +9,7 @@ export const Navigation = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 1rem;
 
   h2 {
     font-size: 2.4rem;
@@ -19,9 +20,26 @@ export const Navigation = styled.nav`
       color: var(--orange);
     }
   }
+
+  .icon{
+    font-size: 2.4rem;
+    color: var(--orange);
+
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .iconMenu{
+    visibility: visible;
+  }
+
+  .closeMenu{
+    visibility: hidden;
+  }
 `
 export const Menu = styled.div`
-  display: none;
+  visibility: hidden;
 
   ul {
     display: flex;
@@ -30,5 +48,5 @@ export const Menu = styled.div`
 `
 
 export const Contact = styled.div`
-  display: none;
+  visibility: hidden;
 `

@@ -72,6 +72,7 @@ export const MenuOpen = styled.div`
   ul{
     display: grid;
     gap: 5rem;
+    text-align: center;
 
     li{
       a{

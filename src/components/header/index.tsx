@@ -1,11 +1,4 @@
-import {
-  CloseMenu,
-  Contact,
-  Container,
-  Menu,
-  Navigation,
-  OpenMenu
-} from './styles'
+import { Contact, Container, Menu, MenuOpen, Navigation } from './styles'
 import { HiOutlineMenuAlt2 } from 'react-icons/hi'
 import { IoCloseOutline } from 'react-icons/io5'
 import { useState } from 'react'
@@ -34,12 +27,26 @@ export function Header() {
             <li>Buy online</li>
           </ul>
         </Contact>
-        <div className={menuIsActive ? 'icon' : 'closeMenu'} onClick={ToggleMode}>
-          <HiOutlineMenuAlt2 />
+        <div
+          className={menuIsActive ? 'iconMenuClose' : 'iconMenu'}
+          onClick={ToggleMode}
+        >
+          <span><HiOutlineMenuAlt2 /></span>
         </div>
-        <div >
-          <IoCloseOutline className={menuIsActive ? 'closeMenu' : 'icon'} onClick={ToggleMode} />
-        </div>
+        <MenuOpen
+          className={menuIsActive ? 'iconMenu' : 'iconMenuClose'}
+          onClick={ToggleMode}
+        >
+          <span>
+            <IoCloseOutline />
+          </span>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">Testimonials</a></li>
+            </ul>
+        </MenuOpen>
       </Navigation>
     </Container>
   )

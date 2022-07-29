@@ -28,13 +28,13 @@ export function Header() {
           </ul>
         </Contact>
         <div
-          className={menuIsActive ? 'iconMenuClose' : 'iconMenu'}
+          className={menuIsActive ? 'icon' : 'iconMenu '}
           onClick={ToggleMode}
         >
           <span><HiOutlineMenuAlt2 /></span>
         </div>
         <MenuOpen
-          className={menuIsActive ? 'iconMenu' : 'iconMenuClose'}
+          className={menuIsActive ? 'iconMenu' : 'icon transitionMenuClose'}
           onClick={ToggleMode}
         >
           <span>

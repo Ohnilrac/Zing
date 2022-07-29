@@ -4,19 +4,24 @@ export const Container = styled.header`
   width: 80%;
   margin: 0 auto;
 
-  .iconMenuClose{
+  .icon {
     font-size: 2.4rem;
     color: var(--orange);
+    transition: all 0.3s;
   }
 
-  .iconMenu{
-    font-size: 2.4rem;
-    color: var(--orange);
+  .iconMenu {
     visibility: hidden;
+    transition: 0.7s;
+    transform: translateX(100%)
   }
 
-  div{
-    span{
+  .transitionMenuClose{
+    transform: translateX(0)
+  }
+
+  div {
+    span {
       position: fixed;
       top: 2rem;
       right: 2rem;
@@ -42,11 +47,12 @@ export const Navigation = styled.nav`
 `
 export const Menu = styled.div`
   display: none;
+  transform: translateY(100%);
 
   ul {
     display: flex;
     flex-direction: column;
-}
+  }
 `
 
 export const Contact = styled.div`
@@ -63,23 +69,22 @@ export const MenuOpen = styled.div`
   background: var(--background);
   z-index: 100;
 
-  span{
+  span {
     position: fixed;
     top: 2rem;
     right: 2rem;
   }
 
-  ul{
+  ul {
     display: grid;
     gap: 5rem;
     text-align: center;
 
-    li{
-      a{
+    li {
+      a {
         color: var(--orange);
         font-weight: 700;
       }
     }
   }
-
 `

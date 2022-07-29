@@ -28,7 +28,7 @@ export const Content = styled.div`
   div{
     input{
       font-size: 1.1rem;
-      width: 90%;
+      width: 22rem;
       height: 4rem;
       padding: 2rem 1rem;
       z-index: 100;
@@ -36,7 +36,6 @@ export const Content = styled.div`
       border: none;
     }
   }
-
   i{
       font-size: 2rem;
       color: var(--sub-text);

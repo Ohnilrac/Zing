@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
+  /* position: fixed; */
+  /* border-bottom: 1px solid red; */
   width: 80%;
   margin: 0 auto;
 
@@ -30,6 +32,8 @@ export const Container = styled.header`
 `
 
 export const Navigation = styled.nav`
+  /* width: 80%; 
+  margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;

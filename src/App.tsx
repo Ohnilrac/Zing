@@ -1,4 +1,5 @@
 import { About } from "./components/about";
+import { Contact } from "./components/contact";
 import { Header } from "./components/header";
 import { Home } from "./components/home";
 import { Products } from "./components/products";
@@ -13,6 +14,7 @@ export function App() {
       <About/>
       <Products />
       <Testimonials />
+      <Contact />
       <GlobalStyles />
     </div>
   )

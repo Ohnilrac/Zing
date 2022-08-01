@@ -1,10 +1,15 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
-  /* position: fixed; */
-  /* border-bottom: 1px solid red; */
-  width: 80%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
   margin: 0 auto;
+  padding: 0.875rem;
+
+  background: var(--background);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
 
   .icon {
     font-size: 2.4rem;

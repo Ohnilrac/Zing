@@ -7,7 +7,7 @@ export const Container = styled.main`
 
 export const Content = styled.div`
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 10rem;
   text-align: center;
 
   h1{

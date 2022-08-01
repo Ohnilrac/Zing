@@ -2,6 +2,7 @@ import { About } from "./components/about";
 import { Header } from "./components/header";
 import { Home } from "./components/home";
 import { Products } from "./components/products";
+import { Testimonials } from "./components/testimonials";
 import { GlobalStyles } from "./styles/global";
 
 export function App() {
@@ -11,6 +12,7 @@ export function App() {
       <Home />
       <About/>
       <Products />
+      <Testimonials />
       <GlobalStyles />
     </div>
   )

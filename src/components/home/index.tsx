@@ -5,7 +5,7 @@ import bgHome from "../../assets/bg-home.png"
 
 export function Home(){
   return (
-    <Container>
+    <Container id="home">
       <Content>
         <h1>Móveis incríveis para sua casa</h1>
         <p>Acreditamos que a cadeira é o móvel mais importante da sua casa. Porque se você ama a cadeira em que está sentado, é provável que você ame o resto da sala.</p>

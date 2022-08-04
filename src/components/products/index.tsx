@@ -12,7 +12,7 @@ import lampada from '../../assets/lampada.png'
 
 export function Products(){
   return(
-    <Container>
+    <Container id="products">
       <HeaderProducts>
         <h2>Produtos</h2>
         <ul>

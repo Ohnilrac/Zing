@@ -4,7 +4,7 @@ import aspas from "../../assets/quote-up.svg"
 
 export function Testimonials() {
   return(
-    <Container>
+    <Container id="testimonials">
       <Content>
         <h2>O que nossos clientes dizem...</h2>
         <div>

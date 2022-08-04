@@ -3,7 +3,7 @@ import imgContact from '../../assets/img-contact.png'
 
 export function Contact() {
   return (
-    <Container>
+    <Container id='contact'>
       <Img>
         <img src={imgContact} alt="" />
       </Img>

@@ -17,10 +17,10 @@ export function Header() {
         </h2>
         <Menu>
           <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Products</li>
-            <li>Testimonials</li>
+            <li><a href='#home'>Home</a></li>
+            <li><a href='#about'>Sobre nós</a></li>
+            <li><a href='#products'>Produtos</a></li>
+            <li><a href='#testemonials'>Depoimentos</a></li>
           </ul>
         </Menu>
         <Contact>

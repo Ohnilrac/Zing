@@ -3,7 +3,7 @@ import aboutImg from '../../assets/img-about.png'
 
 export function About() {
   return (
-    <Container>
+    <Container id='about'>
       <Content>
         <div>
           <TittleSection>

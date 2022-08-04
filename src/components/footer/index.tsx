@@ -1,4 +1,4 @@
-import { Container, Content, FooterInfo } from './styles'
+import { Container, Content, Copyright, FooterInfo } from './styles'
 
 export function Footer() {
   return (
@@ -31,9 +31,9 @@ export function Footer() {
             <p><a></a>LinkedIN</p>
           </div>
         </FooterInfo>
-        <div>
+        <Copyright>
           <p>Copyright ©2022 Zing Inc. Todos os direitos reservados.</p>
-        </div>
+        </Copyright>
       </Content>
     </Container>
   )

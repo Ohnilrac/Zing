@@ -40,3 +40,9 @@ export const FooterInfo = styled.div`
     margin: 0.4rem 0;
   }
 `
+export const Copyright = styled.div`
+  p{
+    color: var(--text);
+    font-size: 0.9rem;
+  }
+`

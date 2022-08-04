@@ -41,7 +41,9 @@ export const FooterInfo = styled.div`
   }
 `
 export const Copyright = styled.div`
-  p{
+  margin-bottom: 2rem;
+
+  p {
     color: var(--text);
     font-size: 0.9rem;
   }

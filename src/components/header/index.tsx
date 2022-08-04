@@ -17,10 +17,18 @@ export function Header() {
         </h2>
         <Menu>
           <ul>
-            <li><a href='#home'>Home</a></li>
-            <li><a href='#about'>Sobre nós</a></li>
-            <li><a href='#products'>Produtos</a></li>
-            <li><a href='#testemonials'>Depoimentos</a></li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#products">Produtos</a>
+            </li>
+            <li>
+              <a href="#testemonials">Depoimentos</a>
+            </li>
           </ul>
         </Menu>
         <Contact>
@@ -49,13 +57,13 @@ export function Header() {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#about">About us</a>
+              <a href="#about">Sobre nós</a>
             </li>
             <li>
-              <a href="#products">Products</a>
+              <a href="#products">Produtos</a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials">Depoimentos</a>
             </li>
           </ul>
         </MenuOpen>

@@ -44,12 +44,14 @@ export const Navigation = styled.nav`
   margin-top: 1rem;
 
   h2 {
-    font-size: 2.4rem;
-    font-weight: 700;
-    color: var(--text);
-
-    span {
-      color: var(--orange);
+    a{
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--text);
+  
+      span {
+        color: var(--orange);
+      }
     }
   }
 `

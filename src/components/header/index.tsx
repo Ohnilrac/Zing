@@ -11,7 +11,9 @@ export function Header() {
     <Container>
       <Navigation>
         <h2>
-          Zing<span>.</span>
+          <a href="#home">
+            Zing<span>.</span>
+          </a>
         </h2>
         <Menu>
           <ul>
@@ -31,7 +33,9 @@ export function Header() {
           className={menuIsActive ? 'icon' : 'iconMenu '}
           onClick={ToggleMode}
         >
-          <span><HiOutlineMenuAlt2 /></span>
+          <span>
+            <HiOutlineMenuAlt2 />
+          </span>
         </div>
         <MenuOpen
           className={menuIsActive ? 'iconMenu' : 'icon transitionMenuClose'}
@@ -40,12 +44,20 @@ export function Header() {
           <span>
             <IoCloseOutline />
           </span>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#about">About us</a></li>
-              <li><a href="#products">Products</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-            </ul>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About us</a>
+            </li>
+            <li>
+              <a href="#products">Products</a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
         </MenuOpen>
       </Navigation>
     </Container>

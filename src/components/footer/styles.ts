@@ -39,6 +39,10 @@ export const FooterInfo = styled.div`
     color: var(--text);
     margin: 0.4rem 0;
   }
+
+  @media screen and (min-width: 540px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `
 export const Copyright = styled.div`
   margin-bottom: 2rem;

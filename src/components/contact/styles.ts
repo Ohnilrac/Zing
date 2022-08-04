@@ -39,6 +39,7 @@ export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   div {
     display: flex;
@@ -86,5 +87,16 @@ export const FormContainer = styled.form`
 
     color: var(--background);
     background: var(--orange);
+  }
+
+  @media screen and (min-width: 540px) {
+    align-items: flex-start;
+  }
+`
+
+export const NameArea = styled.div`
+  @media screen and (min-width: 540px) {
+    display: flex;
+    width: 100%;
   }
 `

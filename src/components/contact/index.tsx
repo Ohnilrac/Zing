@@ -1,9 +1,9 @@
-import { Container, FormContainer, Img, Title } from './styles'
+import { Container, FormContainer, Img, NameArea, Title } from './styles'
 import imgContact from '../../assets/img-contact.png'
 
 export function Contact() {
   return (
-    <Container id='contact'>
+    <Container id="contact">
       <Img>
         <img src={imgContact} alt="" />
       </Img>

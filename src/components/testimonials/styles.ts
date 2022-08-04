@@ -7,12 +7,12 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 80%;
   margin: 3rem auto;
+  padding: 2.5rem 0;
 
   h2 {
     font-size: 3rem;
     font-weight: 700;
     color: var(--background);
-    padding-top: 3rem;
   }
 `
 export const ImgClient = styled.section`

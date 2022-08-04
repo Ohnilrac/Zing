@@ -10,7 +10,7 @@ export const Content = styled.div`
   margin-top: 10rem;
   text-align: center;
 
-  h1{
+  h1 {
     font-size: 4rem;
     font-weight: 700;
     color: var(--text);
@@ -18,15 +18,15 @@ export const Content = styled.div`
     margin-bottom: 2rem;
   }
 
-  p{
+  p {
     font-size: 1.4rem;
     color: var(--sub-text);
 
     margin-bottom: 2rem;
   }
 
-  div{
-    input{
+  div {
+    input {
       font-size: 1.1rem;
       width: 22rem;
       height: 4rem;
@@ -36,17 +36,31 @@ export const Content = styled.div`
       border: none;
     }
   }
-  i{
-      font-size: 2rem;
-      color: var(--sub-text);
-      position: relative;
-      right: -9rem;
-      top: -3rem;
-    }
-  img{
+
+  i {
+    font-size: 2rem;
+    color: var(--sub-text);
+    position: relative;
+    right: -9rem;
+    top: -3rem;
+  }
+
+  img {
     position: relative;
     width: 100%;
     margin-top: -4.5rem;
     z-index: -100;
+  }
+
+  @media screen and (min-width: 540px) {
+    div {
+      input {
+        width: 36rem;
+      }
+    }
+
+    i {
+      right: -15rem;
+    }
   }
 `

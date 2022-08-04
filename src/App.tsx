@@ -1,5 +1,6 @@
 import { About } from "./components/about";
 import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Home } from "./components/home";
 import { Products } from "./components/products";
@@ -15,6 +16,7 @@ export function App() {
       <Products />
       <Testimonials />
       <Contact />
+      <Footer />
       <GlobalStyles />
     </div>
   )

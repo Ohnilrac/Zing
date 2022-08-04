@@ -1,10 +1,10 @@
-import { Container, Content } from './styles'
+import { Container, Content, FooterInfo } from './styles'
 
 export function Footer() {
   return (
     <Container>
       <Content>
-        <div>
+        <FooterInfo>
           <div>
             <h4>
               <a href="#home">
@@ -14,23 +14,23 @@ export function Footer() {
             <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
           </div>
           <div>
-            <h4>Quick links</h4>
-            <p>Gallery</p>
-            <p>About us</p>
-            <p>Buy online</p>
+            <h4>links</h4>
+            <p><a>Galeria</a></p>
+            <p><a>Sobre nós</a></p>
+            <p><a>Comprar online</a></p>
           </div>
           <div>
-            <h4>Policy</h4>
-            <p>Terms &#38; conditions</p>
-            <p>Privacy policy</p>
+            <h4>Política</h4>
+            <p><a>Termos &#38; condições</a></p>
+            <p><a>Política de privacidade</a></p>
           </div>
           <div>
             <h4>Social</h4>
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>LinkedIN</p>
+            <p><a></a>Facebook</p>
+            <p><a></a>Instagram</p>
+            <p><a></a>LinkedIN</p>
           </div>
-        </div>
+        </FooterInfo>
         <div>
           <p>Copyright ©2022 Zing Inc. Todos os direitos reservados.</p>
         </div>

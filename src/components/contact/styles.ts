@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 80%;
@@ -6,8 +6,13 @@ export const Container = styled.div`
 `
 
 export const Img = styled.section`
-  img{
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 90%;
+    height: 90%;
   }
 `
 export const Title = styled.div`
@@ -18,13 +23,13 @@ export const Title = styled.div`
 
   margin: 2rem 0;
 
-  h2{
+  h2 {
     font-size: 3rem;
     font-weight: 700;
     color: var(--text);
   }
 
-  p{
+  p {
     font-size: 1.4rem;
     color: var(--sub-text);
   }
@@ -35,44 +40,44 @@ export const FormContainer = styled.form`
   flex-direction: column;
   align-items: center;
 
-  div{
+  div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
 
     margin: 0.3rem 0;
 
-    label{
+    label {
       font-size: 1.4rem;
       font-weight: 600;
       color: var(--text);
       margin-bottom: 0.3rem;
     }
 
-    input{
+    input {
       width: 20rem;
       height: 2.7rem;
       border: 1px solid rgba(17, 43, 60, 0.3);
 
-      &::placeholder{
+      &::placeholder {
         font-size: 1.2rem;
       }
     }
   }
 
-  div > textarea{
+  div > textarea {
     width: 20rem;
     height: 15rem;
     margin-bottom: 0.5rem;
     resize: none;
     border: 1px solid rgba(17, 43, 60, 0.3);
 
-    &::placeholder{
-        font-size: 1.2rem;
-      }
+    &::placeholder {
+      font-size: 1.2rem;
+    }
   }
 
-  button{
+  button {
     width: 20rem;
     height: 3rem;
     font-size: 1.2rem;

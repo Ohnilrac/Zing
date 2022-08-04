@@ -1,45 +1,37 @@
-import { Container } from './styles'
+import { Container, FormContainer, Img, Title } from './styles'
 import imgContact from '../../assets/img-contact.png'
 
 export function Contact() {
   return (
     <Container>
-      <section>
+      <Img>
         <img src={imgContact} alt="" />
-      </section>
+      </Img>
       <section>
+        <Title>
+          <h2>Contate-nos</h2>
+          <p>Adorariamos lhe ouvir!</p>
+        </Title>
         <div>
-          <h2></h2>
-          <p></p>
-        </div>
-        <div>
-          <form>
+          <FormContainer>
+              <div>
+                <label htmlFor="">Nome:</label>
+                <input type="text" placeholder="Primeiro Nome" />
+              </div>
+              <div>
+                <label htmlFor="">Sobrenome:</label>
+                <input type="text" placeholder="Segundo Nome" />
+              </div>
             <div>
-              <label htmlFor=""></label>
-              <input type="text" placeholder='Primeiro Nome' />
-              <i></i>
-              <i></i>
-              <small>Erro</small>
+              <label htmlFor="">E-mail:</label>
+              <input type="email" placeholder="Digite seu E-mail" />
             </div>
             <div>
-              <label htmlFor=""></label>
-              <input type="text" placeholder='Segundo Nome' />
-              <i></i>
-              <i></i>
-              <small>Erro</small>
+              <label htmlFor="">Mensagem:</label>
+              <textarea placeholder="Digite aqui sua mensagem..."></textarea>
             </div>
-            <div>
-              <label htmlFor=""></label>
-              <input type="email" placeholder='Digite seu E-mail' />
-              <i></i>
-              <i></i>
-              <small>Erro</small>
-            </div>
-            <div>
-              <textarea></textarea>
-            </div>
-            <button type='submit'>Enviar Mensagem</button>
-          </form>
+            <button type="submit">Enviar Mensagem</button>
+          </FormContainer>
         </div>
       </section>
     </Container>

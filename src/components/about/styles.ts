@@ -7,25 +7,42 @@ export const Container = styled.div`
 export const Content = styled.div`
   width: 100%;
 
-  img{
+  img {
     width: 100%;
     display: none;
+  }
+
+  @media screen and (min-width: 760px) {
+    display: flex;
+    width: 80%;
+
+    div > img {
+      display: inline-block;
+      padding: 10rem 0 0 0;
+      margin: 0 0 0 1rem;
+      width: 165%;
+    }
   }
 `
 export const TittleSection = styled.div`
   text-align: center;
 
-  h2{
+  h2 {
     font-size: 3rem;
     font-weight: 700;
     color: var(--text);
     margin-bottom: 1rem;
   }
 
-  p{
+  p {
     font-size: 1.4rem;
     color: var(--sub-text);
     margin-bottom: 3rem;
+  }
+
+  @media screen and (min-width: 760px) {
+    width: 75%;
+    text-align: left;
   }
 `
 
@@ -34,22 +51,22 @@ export const SectionContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
 
-  article{
+  article {
     display: grid;
     gap: 0.5rem;
 
-    span{
+    span {
       font-size: 3rem;
       font-weight: 700;
       color: var(--orange);
     }
 
-    strong{
+    strong {
       font-size: 1.5rem;
       color: #000000;
     }
 
-    p{
+    p {
       font-size: 1.4rem;
       color: var(--sub-text);
     }

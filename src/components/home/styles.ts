@@ -65,12 +65,24 @@ export const Content = styled.div`
   }
 
   @media screen and (min-width: 760px) {
-    h1{
+    h1 {
       padding: 0 10rem;
     }
 
-    p{
+    p {
       padding: 0 5rem;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    div {
+      input {
+        width: 60rem;
+      }
+    }
+
+    i {
+      right: -27rem;
     }
   }
 `

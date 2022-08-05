@@ -1,4 +1,4 @@
-import { Container, FormContainer, Img, NameArea, Title } from './styles'
+import { Container, FormContainer, Img, Title } from './styles'
 import imgContact from '../../assets/img-contact.png'
 
 export function Contact() {
@@ -14,7 +14,7 @@ export function Contact() {
         </Title>
         <div>
           <FormContainer>
-            <div className='positionName'>
+            <div className="positionName">
               <div>
                 <label htmlFor="">Nome:</label>
                 <input type="text" placeholder="Primeiro Nome" />

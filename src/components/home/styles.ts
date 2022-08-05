@@ -63,4 +63,14 @@ export const Content = styled.div`
       right: -15rem;
     }
   }
+
+  @media screen and (min-width: 760px) {
+    h1{
+      padding: 0 10rem;
+    }
+
+    p{
+      padding: 0 5rem;
+    }
+  }
 `

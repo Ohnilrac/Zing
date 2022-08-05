@@ -41,7 +41,11 @@ export const FooterInfo = styled.div`
   }
 
   @media screen and (min-width: 540px) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: 760px) {
+    grid-template-columns: repeat(4, 1fr);
   }
 `
 export const Copyright = styled.div`

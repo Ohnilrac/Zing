@@ -141,4 +141,26 @@ export const FormContainer = styled.form`
       width: 115%;
     }
   }
+
+  @media screen and (min-width: 1000px) {
+    div.positionName:nth-child(1) {
+      input {
+        width: 120%;
+      }
+    }
+
+    div:nth-child(2) {
+      input {
+        width: 240%;
+      }
+    }
+
+    div > textarea {
+      width: 275%;
+    }
+  }
+
+  button {
+    width: 109%;
+  }
 `

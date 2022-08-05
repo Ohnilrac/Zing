@@ -35,6 +35,10 @@ export const Container = styled.header`
       right: 2rem;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 `
 
 export const Navigation = styled.nav`

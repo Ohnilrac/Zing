@@ -7,6 +7,10 @@ export const Container = styled.div`
   @media screen and (min-width: 760px) {
     display: flex;
   }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 `
 
 export const Img = styled.section`

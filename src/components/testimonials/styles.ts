@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   background: var(--text);
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 `
 
 export const Content = styled.div`

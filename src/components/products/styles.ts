@@ -37,6 +37,8 @@ export const HeaderProducts = styled.div`
 
 export const Itens = styled.section`
   display: grid;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-top: 4rem;

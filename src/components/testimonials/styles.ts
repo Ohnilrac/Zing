@@ -79,4 +79,8 @@ export const ClientTestimonial = styled.section`
   @media screen and (min-width: 760px) {
     padding-left: 7rem;
   }
+
+  @media screen and (min-width: 1000px) {
+    padding-right: 11rem;
+  }
 `

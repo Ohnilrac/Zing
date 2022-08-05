@@ -91,6 +91,28 @@ export const FormContainer = styled.form`
 
   @media screen and (min-width: 540px) {
     align-items: flex-start;
+
+    div.positionName:nth-child(1) {
+      flex-direction: row;
+
+      input {
+        width: 90%;
+      }
+    }
+
+    div:nth-child(2) {
+      input {
+        width: 190%;
+      }
+    }
+
+    div > textarea {
+      width: 218%;
+    }
+  }
+
+  button{
+    width: 75%;
   }
 `
 

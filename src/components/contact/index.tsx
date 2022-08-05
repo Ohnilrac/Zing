@@ -14,6 +14,7 @@ export function Contact() {
         </Title>
         <div>
           <FormContainer>
+            <div className='positionName'>
               <div>
                 <label htmlFor="">Nome:</label>
                 <input type="text" placeholder="Primeiro Nome" />
@@ -22,6 +23,7 @@ export function Contact() {
                 <label htmlFor="">Sobrenome:</label>
                 <input type="text" placeholder="Segundo Nome" />
               </div>
+            </div>
             <div>
               <label htmlFor="">E-mail:</label>
               <input type="email" placeholder="Digite seu E-mail" />

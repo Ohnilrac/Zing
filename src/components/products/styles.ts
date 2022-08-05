@@ -65,8 +65,12 @@ export const Itens = styled.section`
       color: var(--orange);
     }
   }
-  
+
   @media screen and (min-width: 540px) {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media screen and (min-width: 760px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `

@@ -26,7 +26,7 @@ export function Contact() {
             </div>
             <div>
               <label htmlFor="">E-mail:</label>
-              <input type="email" placeholder="Digite seu E-mail" />
+              <input type="email" placeholder="Digite seu e-mail" />
             </div>
             <div>
               <label htmlFor="">Mensagem:</label>

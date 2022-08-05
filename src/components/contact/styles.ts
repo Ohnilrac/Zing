@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 80%;
   margin: 0 auto;
+
+  @media screen and (min-width: 760px) {
+    display: flex;
+  }
 `
 
 export const Img = styled.section`
@@ -12,7 +16,13 @@ export const Img = styled.section`
 
   img {
     width: 90%;
-    height: 90%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 760px) {
+    img {
+      height: 90%;
+    }
   }
 `
 export const Title = styled.div`
@@ -62,6 +72,7 @@ export const FormContainer = styled.form`
 
       &::placeholder {
         font-size: 1.2rem;
+        padding-left: 0.5rem;
       }
     }
   }
@@ -75,6 +86,7 @@ export const FormContainer = styled.form`
 
     &::placeholder {
       font-size: 1.2rem;
+      padding-left: 0.5rem;
     }
   }
 
@@ -111,14 +123,22 @@ export const FormContainer = styled.form`
     }
   }
 
-  button{
+  button {
     width: 75%;
   }
-`
 
-export const NameArea = styled.div`
-  @media screen and (min-width: 540px) {
-    display: flex;
-    width: 100%;
+  @media screen and (min-width: 760px) {
+    div.positionName:nth-child(1) {
+      div:nth-child(2) {
+        margin-left: 6rem;
+      }
+      input {
+        width: 135%;
+      }
+    }
+
+    button {
+      width: 115%;
+    }
   }
 `
